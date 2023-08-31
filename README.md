@@ -1,19 +1,14 @@
 Комадны GIT
-_____________________
-| Метод | Защита    |
-|-------|-----------|
-| POST  | JWT Token |
----------------------
 
-git --version                                           - определить версию git
-
- git config --global user.name "Lastname Firstname"     -   настройка login для коммитов
- git config --global user.email "email@gmail.com"       -   настройка e-mail для коммитов
-
- git init                               -   инициализация git
- git status                             -   отображение файлов с изменен
- git add hello-world.md                 -   добавление файла в отслеживание изменений
- git commit -m "Created new file"       -   фиксация изменений в виде коммита
- git log                                -   просмотр фиксированных состояний
- git checkout f9da                      -   переключение на одно из состояний
- git diff                               -   отображение локальных изменений
+| Команда | Описание| 
+|:----:|:----------|
+|`git --version `| ___определить версию git___|
+|`git config --global user.name "Lastname Firstname"`|___настройка login для коммитов___|
+|`git config --global user.email "email@gmail.com"`|___настройка e-mail для коммитов___|
+|`git init`|___инициализация git___|
+|`git status `|___отображение файлов с изменениями___|
+|`git add file `|___добавление файла в отслеживание изменений___|
+|`git commit -m "commit"`|___фиксация изменений в виде коммита___|
+|`git log`|___просмотр фиксированных состояний___|
+|`git checkout #commit`|___переключение на одно из состояний___|
+|`git diff`|___отображение локальных изменений___|
